@@ -1,0 +1,514 @@
+/* ===== Home Page ===== */
+/* Featured Collection Section */
+#FeaturedCollection--template--22084034003248__9a713378-8704-4a3b-b837-7be430d69a0b {
+ /* grid edits */
+ .grid {
+  display: flex;
+  flex-direction: column;
+ }
+ @media (min-width: 576px) {
+  .grid {
+   display: flex;
+   flex-direction: row;
+  }
+  #product-item--template--22084034003248__9a713378-8704-4a3b-b837-7be430d69a0b-6545926291555 {
+   width: 50%;
+  }
+  #product-item--template--22084034003248__9a713378-8704-4a3b-b837-7be430d69a0b-6545926783075 {
+   width: 48%;
+  }
+ }
+ .collection-promo__inner {
+  border-radius: 8px;
+  display: block !important;
+  .backdrop--radial:before {
+   display: none !important;
+  }
+ }
+ .collection-promo {
+  padding: 0 20px;
+ }
+ .collection-promo__image {
+  background-position: center top !important ;
+ }
+}
+/* Banner */
+@media (min-width: 768px) and (max-width: 1200px) {
+ #shopify-section-template--22084034003248__7ee3ebd0-1621-4691-a14f-35fc4f7a3efb {
+  .slide__btn {
+   right: 37px;
+   top: 37px;
+  }
+ }
+}
+/* ===== Product Page ===== */
+/* Img with text sections */
+#ImageWithText--template--22084034396464__section_image_with_text_998RUT,
+#ImageWithText--template--22084034396464__section_image_with_text_UV433X,
+#shopify-section-template--22084034396464__section_image_with_text_8K4cj7 {
+ .image-with-text__content-items {
+  max-width: 485px;
+ }
+ .image-with-text__content-items .image-with-text__text {
+  font-size: 22px;
+  @media (max-width: 768px) {
+   font-size: 18px;
+  }
+ }
+ .image-with-text__content-items h2 {
+  color: #53575a;
+ }
+}
+@media (max-width: 768px) {
+ .custom_breadcrumb {
+  padding: 20px 19px !important;
+ }
+}
+
+/* product card */
+.product-grid-item__title {
+ color: #53575a;
+ font-weight: 900 !important;
+ line-height: 29px !important;
+}
+
+/* Product Form edits */
+.selector-wrapper--qty {
+ width: 24%;
+}
+.product__form {
+ flex-wrap: wrap;
+ gap: 10px;
+ display: flex;
+}
+.product__submit__holder.product__submit__holder--notification {
+ width: 70%;
+ height: 80px;
+ margin-top: 23px;
+ @media (max-width: 992px) {
+  margin-top: 13px;
+ }
+}
+.rc-container-wrapper.rc_container_wrapper {
+ width: 100%;
+}
+.product__form .btn {
+ padding: 9px;
+ margin-top: 5px;
+}
+/* btns edits */
+.btn {
+ transition: 0.5s !important;
+ border: solid 1px transparent !important;
+}
+.btn:hover {
+ background: white;
+ border: #e87200 1px solid !important;
+ color: #e87200;
+}
+/* optomizing sections for 1440p */
+@media (min-width: 1400px) {
+ .wrapper {
+  --wrapper-width: 1662px !important;
+  width: 1700px !important;
+ }
+ /*  testimonials sec in both pages */
+ .testimonials__wrapper .testimonial__item__inner {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .testimonials__wrapper .testimonial__item__inner p {
+  font-size: 16px;
+ }
+ .testimonials__wrapper .testimonial__item__inner .testimonial__user {
+  font-size: 14px !important;
+ }
+ .rating__star .icon {
+  width: 16px !important;
+  height: 16px !important;
+ }
+ /*  btn */
+ .btn {
+  font-size: 20px !important;
+  padding: 10px 40px !important;
+ }
+}
+@media (min-width: 2000px) {
+ .wrapper {
+  --wrapper-width: 1902px !important;
+  width: 2000px !important;
+ }
+ /*  testimonials sec in both pages */
+ .testimonials__wrapper .testimonial__item__inner {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .testimonials__wrapper .testimonial__item__inner p {
+  font-size: 25px;
+ }
+ .testimonials__wrapper .testimonial__item__inner .testimonial__user {
+  font-size: 21px !important;
+ }
+ .rating__star .icon {
+  width: 20px !important;
+  height: 20px !important;
+ }
+ /*  Our Process To Pure Omega 3 SECTION EDITS */
+ main
+  #shopify-section-template--22084034003248__160cfe31-0f79-4b2c-bbda-214478ce8a73
+  h3.mosaic__item__heading.mosaic__item__heading--underline.h2,
+ main
+  #shopify-section-template--22084034003248__160cfe31-0f79-4b2c-bbda-214478ce8a73
+  .h2 {
+  font-size: 1.9rem !important;
+ }
+ #shopify-section-template--22084034003248__160cfe31-0f79-4b2c-bbda-214478ce8a73
+  .mosaic__item__content {
+  height: 500px;
+ }
+ /*  Header Edits */
+ .site-header--nav-left .nav--default {
+  font-size: 20px;
+ }
+ .site-header--fixed {
+  height: 80px !important;
+ }
+ .logo__image-link,
+ .site-header--has-logo .logo {
+  width: 234px !important;
+  height: 50px !important;
+ }
+ /*  text section in home page */
+ #shopify-section-template--22084034003248__section_text_AhXXq4
+  .text-highlight__break {
+  font-size: 38px;
+ }
+ .product-grid-item__title {
+  font-size: 22px;
+ }
+ .product-grid-item__price {
+  font-size: 22px;
+ }
+ .btn:not(.product__submit__add) {
+  font-size: 25px !important;
+  padding: 10px 50px !important;
+ }
+ .icon-block {
+  font-size: 40px;
+ }
+ /* Icon Slider */
+ .owl-carousel .owl-item img {
+  height: 131px !important;
+ }
+ .icon-block p {
+  font-size: 22px !important;
+ }
+ /*  Featured Collection */
+ #shopify-section-template--22084034003248__9a713378-8704-4a3b-b837-7be430d69a0b
+  .product-grid-item__info {
+  padding: 0 25px !important;
+  .product-grid-item__title {
+   font-size: 19px;
+  }
+  .product-grid-item__price {
+   font-size: 16px;
+  }
+  .product-grid-item__rating .rating__star .icon {
+   width: 20px;
+   height: 20px;
+  }
+ }
+
+ /* Banner with text Columns */
+ #BannerWithTextColumns--template--22084034003248__4b0465f0-6c54-4a82-8b90-d8278fcd9065 {
+  h3 {
+   font-size: 36px;
+  }
+  p {
+   font-size: 20px;
+  }
+ }
+ /*  vidoe Section */
+ #Image--template--22084034003248__section_image_6WJVpf {
+  img {
+   max-height: 809px;
+  }
+ }
+ /*  Footer Edits */
+ .footer-block {
+  .h5 {
+   font-size: 29px !important;
+  }
+  .footer-links li a,
+  p {
+   font-size: 20px !important;
+  }
+ }
+ /*  Main Product Section */
+ a.product-single__thumbnail-link-desktop {
+  height: 81px !important;
+  width: 81px !important;
+ }
+ .product__description {
+  font-size: 21px !important;
+ }
+ .breadcrumbs,
+ .select__label,
+ .product__price-and-rating *,
+ .rc_popup__label,
+ .rc_widget__option__selector {
+  font-size: 21px !important;
+ }
+ /* Img with text sections */
+ #ImageWithText--template--22084034396464__section_image_with_text_998RUT,
+ #ImageWithText--template--22084034396464__section_image_with_text_UV433X,
+ #shopify-section-template--22084034396464__section_image_with_text_8K4cj7 {
+  .image-with-text__content-items h2 {
+   font-size: 47px !important;
+  }
+  .image-with-text__content-items {
+   max-width: 668px;
+  }
+  .image-with-text__content-items .image-with-text__text {
+   font-size: 34px;
+  }
+ }
+ #shopify-section-template--22084034396464__section_image_with_text_43JVyp,
+ #shopify-section-template--22084034396464__section_image_with_text_AyFqdL {
+  .subheading-text,
+  .image-with-text__text {
+   font-size: 24px;
+  }
+ }
+ #ImageWithText--template--22084034396464__section_image_with_text_43JVyp {
+  height: 988px;
+ }
+ /*  icon slider */
+ .sec_wrapper {
+  .half div img {
+   width: 116px !important;
+  }
+  .half div p {
+   font-size: 23px !important;
+  }
+  .half div h3 {
+   font-size: 25px !important;
+  }
+ }
+ :root {
+  --FONT-ADJUST-HEADING: 1.1 !important;
+ }
+ .rc_popup__block[data-v-7bc675e0] {
+  font-size: 20px !important;
+ }
+}
+@media (min-width: 2400px) {
+ .wrapper {
+  --wrapper-width: 1902px !important;
+  width: 2000px !important;
+ }
+ /*  testimonials sec in both pages */
+ .testimonials__wrapper .testimonial__item__inner {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .testimonials__wrapper .testimonial__item__inner p {
+  font-size: 25px;
+ }
+ .testimonials__wrapper .testimonial__item__inner .testimonial__user {
+  font-size: 21px !important;
+ }
+ .rating__star .icon {
+  width: 20px !important;
+  height: 20px !important;
+ }
+ /*  Our Process To Pure Omega 3 SECTION EDITS */
+ main
+  #shopify-section-template--22084034003248__160cfe31-0f79-4b2c-bbda-214478ce8a73
+  h3.mosaic__item__heading.mosaic__item__heading--underline.h2,
+ main
+  #shopify-section-template--22084034003248__160cfe31-0f79-4b2c-bbda-214478ce8a73
+  .h2 {
+  font-size: 1.9rem !important;
+ }
+ #shopify-section-template--22084034003248__160cfe31-0f79-4b2c-bbda-214478ce8a73
+  .mosaic__item__content {
+  height: 500px;
+ }
+ /*  Header Edits */
+ .site-header--nav-left .nav--default {
+  font-size: 20px;
+ }
+ .site-header--fixed {
+  height: 80px !important;
+ }
+ .logo__image-link,
+ .site-header--has-logo .logo {
+  width: 291px !important;
+  height: 67px !important;
+ }
+ /*  text section in home page */
+ #shopify-section-template--22084034003248__section_text_AhXXq4
+  .text-highlight__break {
+  font-size: 38px;
+ }
+ .product-grid-item__title {
+  font-size: 22px;
+ }
+ .product-grid-item__price {
+  font-size: 22px;
+ }
+ .btn {
+  font-size: 25px !important;
+  padding: 10px 50px !important;
+ }
+ .icon-block {
+  font-size: 40px;
+ }
+ /* Icon Slider */
+ #section1 .carousel img {
+  height: 160px !important;
+ }
+ .icon-block p {
+  font-size: 32px !important;
+ }
+ /*  Featured Collection */
+ #shopify-section-template--22084034003248__9a713378-8704-4a3b-b837-7be430d69a0b
+  .product-grid-item__info {
+  padding: 0 25px !important;
+  .product-grid-item__title {
+   font-size: 19px;
+  }
+  .product-grid-item__price {
+   font-size: 16px;
+  }
+  .product-grid-item__rating .rating__star .icon {
+   width: 20px;
+   height: 20px;
+  }
+ }
+ /* Banner with text Columns */
+ #BannerWithTextColumns--template--22084034003248__4b0465f0-6c54-4a82-8b90-d8278fcd9065 {
+  h3 {
+   font-size: 36px;
+  }
+  p {
+   font-size: 20px;
+  }
+ }
+ /*  vidoe Section */
+ #Image--template--22084034003248__section_image_6WJVpf {
+  img {
+   max-height: 809px;
+  }
+ }
+ /*  Footer Edits */
+ .footer-block {
+  .h5 {
+   font-size: 35px !important;
+  }
+  .footer-links li a,
+  p {
+   font-size: 24px !important;
+  }
+ }
+ /*  Main Product Section */
+ a.product-single__thumbnail-link-desktop {
+  height: 101px !important;
+  width: 101px !important;
+ }
+ .product__description {
+  font-size: 30px !important;
+ }
+ .rc-selling-plans__dropdown,
+ .breadcrumbs,
+ .select__label,
+ .product__price-and-rating *,
+ .rc_popup__label,
+ .rc_widget__option__selector {
+  font-size: 30px !important;
+ }
+ /* Img with text sections */
+ #ImageWithText--template--22084034396464__section_image_with_text_998RUT,
+ #ImageWithText--template--22084034396464__section_image_with_text_UV433X,
+ #shopify-section-template--22084034396464__section_image_with_text_8K4cj7 {
+  .image-with-text__content-items h2 {
+   font-size: 64px !important;
+  }
+  .image-with-text__content-items {
+   max-width: 668px;
+  }
+  .image-with-text__content-items .image-with-text__text {
+   font-size: 48px;
+  }
+  .image-with-text__items {
+   height: 1237px;
+  }
+ }
+ #shopify-section-template--22084034396464__section_image_with_text_43JVyp,
+ #shopify-section-template--22084034396464__section_image_with_text_AyFqdL {
+  .subheading-text,
+  .image-with-text__text {
+   font-size: 24px;
+   margin: 26px 0px;
+  }
+ }
+ #ImageWithText--template--22084034396464__section_image_with_text_43JVyp {
+  height: 988px;
+  --PT: 20px !important;
+  --PB: 20px !important;
+ }
+
+ /*  icon slider */
+ .sec_wrapper {
+  .half div img {
+   width: 116px !important;
+  }
+  .half div p {
+   font-size: 30px !important;
+  }
+  .half div h3 {
+   font-size: 32px !important;
+  }
+  .half .my-heading {
+   font-size: 50px;
+  }
+ }
+ .supports-touch .flickity-prev-next-button:not(:disabled):hover,
+ .flickity-enabled:hover > .flickity-prev-next-button:not(:disabled):hover,
+ section:hover
+  .flickity-enabled
+  > .flickity-prev-next-button:not(:disabled):hover {
+  transform: scale(3.12) translateY(-50%);
+ }
+ .product__form .btn {
+  margin-top: 31px;
+ }
+ .select-popout__toggle {
+  font-size: 28px !important;
+ }
+ div#BannerText--template--19861654241584__7d4c59bc-c6c0-4d42-836f-5b6b2a996525-168847560671e9d39e-2
+  p {
+  font-size: 28px !important;
+ }
+ #BannerHeading--template--19861654241584__7d4c59bc-c6c0-4d42-836f-5b6b2a996525-168847560671e9d39e-1 {
+  font-size: 81px !important;
+ }
+ :root {
+  --FONT-ADJUST-HEADING: 1.1 !important;
+ }
+}
+
+@media (max-width: 2400px) and (min-width: 1400px) {
+ #ImageWithText--template--22084034396464__section_image_with_text_43JVyp {
+  --PT: 15px !important;
+  --PB: 0 !important;
+  margin: 28px 0;
+ }
+}
