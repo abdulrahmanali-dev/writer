@@ -1311,7 +1311,7 @@ textarea {
     display: flex;
     justify-content: center;
     position: fixed;
-    right: 20px;
+    left: 78px;
     top: 145px;
     transform: translateY(-30%);
     transition: 0.3s;
@@ -1457,3 +1457,21 @@ textarea {
 }
 
 
+
+
+/*  */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 23px;
+    width: 50px;
+    LEFT: 23px;
+    height: 50px;
+    z-index: 100;
+    margin: 0;
+    border: 0;
+    background-color: var(--main-color);
+    font-size: 20px;
+    border-radius: 4px;
+}.whatsapp-icon i {
+    color: white;
+}
