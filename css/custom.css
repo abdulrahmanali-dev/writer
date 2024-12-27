@@ -1475,3 +1475,6 @@ textarea {
 }.whatsapp-icon i {
     color: white;
 }
+.mb-6 {
+    margin-bottom: 60px;
+}
