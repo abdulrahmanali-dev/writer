@@ -1318,6 +1318,10 @@ textarea {
     left: 28px;
         
     }
+    .skill span {
+        margin: auto;
+        text-align: center;
+    }
     .skill  {
         font-size: 12px;
     }
