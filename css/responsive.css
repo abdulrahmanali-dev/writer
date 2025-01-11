@@ -325,10 +325,6 @@
   height: 15px;
   width: 15px;
  }
- .resume-single-list:nth-child(3),
- .resume-single-list:nth-child(6) {
-  margin-bottom: 0;
- }
  h3.common-title {
   word-spacing: 0;
   font-size: 39px;
