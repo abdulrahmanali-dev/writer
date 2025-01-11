@@ -1318,6 +1318,12 @@ textarea {
     left: 28px;
         
     }
+    .skill  {
+        font-size: 12px;
+    }
+    .skill img {
+        display: none;
+    }
 }
 .theme-switcher-label:hover {
     background: var(--theme-icon-hover);
