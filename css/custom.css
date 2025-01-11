@@ -298,12 +298,7 @@ li.nav-item {
 }
 .introduction {
     margin-top: 76px;
-    margin-bottom: 73px;
-}
-.education-list .resume-single-list:nth-child(3),
-.experience-list .resume-single-list:nth-child(3),
-.introduction h1 {
-    margin-bottom: 0;
+    margin-bottom: 36px;
 }
 .introduction p {
     font-size: 16px;
