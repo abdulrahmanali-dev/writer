@@ -1312,6 +1312,13 @@ textarea {
     transition: 0.3s;
     z-index: 9999;
 }
+@media (max-width:992px) {
+
+    .theme-switcher-label {
+    left: 28px;
+        
+    }
+}
 .theme-switcher-label:hover {
     background: var(--theme-icon-hover);
 }
